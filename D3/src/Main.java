@@ -8,5 +8,9 @@ public class Main {
 
 //        width of float = 32 (4 bytes)
 //        width of double = 64 (8 bytes)
+
+        int pounds = 5;
+        double kilograms = pounds * 0.45359237;
+        System.out.println(pounds + " pounds is equal to " + kilograms + " kilograms");
     }
 }
